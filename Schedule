@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ページのタイトル</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p.description {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #444;
+            margin-bottom: 10px;
+        }
+        /* スマートフォン表示を考慮したスタイル */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ページのタイトル</h1>
+        <p class="description">ここにページの説明を記述します。</p>
+        <!-- 中見出しとコンテンツ -->
+        <h2>中見出し1</h2>
+        <p>ここにコンテンツを記述します。</p>
+        <h2>中見出し2</h2>
+        <p>ここにコンテンツを記述します。</p>
+        <!-- 中見出しを必要に応じて追加 -->
+
+        <!-- ここまでで9つの中見出しを用意し、必要に応じてさらに追加 -->
+    </div>
+</body>
+</html>
